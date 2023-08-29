@@ -2,7 +2,7 @@
 
 ## Project descriprion
 
-This is a simple example of using Apache Kafka with Python. Producer produces messages with text and consumer consumes it.
+This is a simple example of using Apache Kafka with Python. Producer produces messages with texts and consumer consumes it.
 
 <img src="kafka.gif" alt="Gif">
 
@@ -10,7 +10,7 @@ This is a simple example of using Apache Kafka with Python. Producer produces me
 
 Follow these steps to get the project up and running on your local machine:
 
-**Download the latest Kafka release and extract it to Kafka folder:**
+**Download the latest Kafka release and extract it to Kafka folder**
 
 **Start the ZooKeeper service:**
 ```bash
