@@ -11,5 +11,5 @@ for _ in range(100):
     new_text = fake.text()
     producer.send("texts", new_text.encode("utf-8"))
     print(new_text)
-    time.sleep(0.2)
+    time.sleep(1)
 time.sleep(20)

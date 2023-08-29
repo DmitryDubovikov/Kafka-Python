@@ -1,6 +1,10 @@
 # Kafka-Python
 
-## Features
+## Project descriprion
+
+This is a simple example of using Apache Kafka with Python. Producer produces messages with text and consumer consumes it.
+
+<img src="kafka.gif" alt="Gif">
 
 ## Getting Started
 
@@ -36,4 +40,13 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 **Install Dependencies:**
 ```bash
 pip install -r requirements.txt
+```
+
+**Run consumer.py and producer.py in two terminals:**
+```bash
+python3 consumer.py
+```
+
+```bash
+python3 producer.py
 ```
